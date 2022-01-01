@@ -1,0 +1,6 @@
+{
+    "/tours": "/tours?_embed=tickets",
+    "/tours/*": "/tours/$1?_embed=tickets",
+    "/tickets": "/tickets?_expand=tour",
+    "/tickets/*": "/tickets/$1?_expand=tour"
+  }
